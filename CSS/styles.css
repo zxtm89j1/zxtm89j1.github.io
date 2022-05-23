@@ -1,15 +1,10 @@
 body {
-    background-color: #FFE3EE;
+    background-image: url("/Images/background.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
-
-
-
-
-
-
-
-
 
 .image-gallery-main {
     width: 33.33%; margin: 0; position: relative;
