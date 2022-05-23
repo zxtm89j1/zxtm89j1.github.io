@@ -1,0 +1,103 @@
+.main-body-parent {
+    background-color: white;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.cards-title {
+    margin-top: 3vh;
+    margin-bottom: 10px;
+    padding-top: 0.2vh;
+    padding-bottom: 0.2vh;
+    padding-left: 1vh;
+    font-weight: bold;
+    font-size: 150%;
+    background-color: #FFA6C8;
+}
+
+.articles-gallery-main {
+    position: relative; width: 46%;
+}
+
+.article-img {
+    width: 100%
+}
+
+.articles-caption {
+    position: absolute; bottom: 5px; left: 5px; right: 0
+}
+
+.articles-tag {
+    background-color: #FE498f;; font-size: 1.5vh; padding: 0.5vh; margin-bottom: 5px; font-weight: bold
+}
+
+.article-caption-main-container {
+    background-color: rgba(255, 255, 255, 0.7); padding: 1px;
+}
+
+.articles-title {
+    font-size: 1.5vh; font-weight: bold;
+}
+
+.articles-caption-author {
+    flex: 2; font-size: 1.5vh; margin-bottom: 0;
+}
+
+.articles-caption-date {
+    flex: 1; font-size: 1.5vh; margin-bottom: 0; margin-left: 20px;
+}
+
+.next-articles {
+    margin-top: 2vh
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* aside */
+
+.aside-image-gallery-main {
+    width: 33.33%; margin: 0; position: relative;
+}
+
+.aside-image-gallery {
+    width: 100%
+}
+
+.aside-caption-main {
+    position: absolute; bottom: 5%; left: 5%; right: 5%
+}
+
+.aside-tag-pink {
+    background-color: #FFA6C8; padding: 2%; font-size: 80%; font-weight: bold
+}
+
+.aside-caption-background-white {
+    background-color: rgba(255, 255, 255, 0.7); padding: 1%; width: 100%;
+}
+
+
+
+.aside-caption-author-container {
+    display: flex; margin: 0; width: 100%;
+}
+
+.aside-caption-author {
+    flex: 1; font-size: 80%; color: black; margin: 0;
+}
+
+.aside-caption-date {
+    flex: 2; font-size: 80%; color: black; margin: 0;
+    
+}
+
