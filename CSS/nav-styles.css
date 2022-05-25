@@ -1,6 +1,32 @@
 nav {
     background-color: white;
+    box-shadow: 0px 9px 9px 0px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 2px 9px 9px -8px rgba(0,0,0,0.66);
+    -moz-box-shadow: 2px 9px 9px -8px rgba(0,0,0,0.66);
 }
+.dropdown-toggle {
+    color: #FE498F;
+}
+
+.search-box {
+    border-color: #FE498F;
+}
+
+.btn-outline-success {
+    color: #FE498F;
+    border-color: #FE498F;
+}
+
+.btn-outline-success:hover {
+    background-color: #FE498F;
+    color: white;
+    border-color: white;
+}
+
+.dropdown-toggle:active {
+    color: #FE498F!important;
+}
+
 
 
 i {
@@ -11,6 +37,7 @@ i {
 nav .logo {
     width: 7vh;
     height: auto;
+    margin-right: 1vh;
 }
 
 nav a {

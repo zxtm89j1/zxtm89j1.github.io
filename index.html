@@ -23,47 +23,59 @@
     <!-- Main Container -->
     <div class="container-lg upper-content">
         <!-- Navigation -->
-        <header>
-            <nav class="navbar px-4 d-flex">
-                <a href=""><img src="Images/fav.png" alt="Babloo Entertainment logo" class="logo"></a>
-                <a href="">HOME</a>
-            
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">NEWS</a>
-                    <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item">Trending Now</a>
-                        <a href="#" class="dropdown-item">Shortcuts</a>
-                    </div>
-                </div>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Images/fav.png" alt="Babloo Entertainment logo" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    NEWS
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#trending-now">Trending Now</a></li>
+                    <li><a class="dropdown-item" href="#shortcuts">Shortcuts</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    GROUPS
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                    <li><a class="dropdown-item" href="blackpink.html">BLACKPINK</a></li>
+                    <li><a class="dropdown-item" href="twice.html">TWICE</a></li>
+                    <li><a class="dropdown-item" href="enhypen.html">ENHYPEN</a></li>
+                    <li><a class="dropdown-item" href="treasure.html">Treasure</a></li>
+                    <li><a class="dropdown-item" href="ive.html">IVE</a></li>
+                    <li><a class="dropdown-item" href="txt.html">TXT</a></li>
+                  </ul>
+                </li>
 
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">GROUPS</a>
-                    <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item">BLACKPINK</a>
-                        <a href="#" class="dropdown-item">TWICE</a>
-                        <a href="#" class="dropdown-item">ENHYPEN</a>
-                        <a href="#" class="dropdown-item">Treasure</a>
-                        <a href="#" class="dropdown-item">IVE</a>
-                        <a href="#" class="dropdown-item">TXT</a>
-                    </div>
-                </div>
-
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">EXCLUSIVES</a>
-                    <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item">What to Watch</a>
-                        <a href="#" class="dropdown-item">Featured Events</a>
-                    </div>
-                </div>
-
-                <div class="search">
-                <form class="search-box mr-0">
-                        <input type="search">
-                        <i class="bi bi-search"></i>
-                </form>   
-                </div>
-            </nav>
-        </header> 
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    EXCLUSIVES
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <li><a class="dropdown-item" href="#what-to">What to Watch</a></li>
+                    <li><a class="dropdown-item" href="#featured">Featured Events</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2 search-box" type="search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
         <!-- /Navigation/ -->
 
         <div>
@@ -76,7 +88,7 @@
                     <div class="carousel-inner">
 
                       <div class="carousel-item active">
-                        <img src="Images/g-idle.jpg" class="d-block w-100" alt="g-idle"/>
+                        <a href="g-idle.html"><img src="Images/g-idle.jpg" class="d-block w-100" alt="g-idle"/></a>
                         <div class="carousel-caption d-none d-md-block">
                           <div class="d-flex justify-content-center"><div class="square">NEWS</div></div>
                           <h5>Australia announced as part of (G)I-DLE’s first world tour "I-LAND: WHO AM I"</h5>
@@ -85,7 +97,7 @@
                       </div>
 
                       <div class="carousel-item">
-                        <img src="Images/classy.jpg" class="d-block w-100" alt="classy"/>
+                        <a href="class-y.html"><img src="Images/classy.jpg" class="d-block w-100" alt="classy"/></a>
                         <div class="carousel-caption d-none d-md-block">
                             <div class="d-flex justify-content-center"><div class="square">DEBUT</div></div>
                           <h5>CLASS:y "SHUT DOWN" the zombies in their energetic debut MV!</h5>
@@ -94,7 +106,7 @@
                       </div>
 
                       <div class="carousel-item">
-                        <img src="Images/astro.png" class="d-block w-100" alt="astro"/>
+                        <a href="astro.html"><img src="Images/astro.png" class="d-block w-100" alt="astro"/></a>
                         <div class="carousel-caption d-none d-md-block">
                           <div class="d-flex justify-content-center"><div class="square">COMEBACKS</div></div>
                           <h5>ASTRO go for a sweet ride in their "Candy Sugar Pop" comeback MV!</h5>
@@ -103,7 +115,7 @@
                       </div>
 
                       <div class="carousel-item">
-                        <img src="Images/tnx.jpg" class="d-block w-100" alt="tnx"/>
+                        <a href="tnx.html"><img src="Images/tnx.jpg" class="d-block w-100" alt="tnx"/></a>
                         <div class="carousel-caption d-none d-md-block">
                           <div class="d-flex justify-content-center"><div class="square">TEASERS</div></div>
                           <h5>TNX go bold in their assured concept photos for debut EP, "WAY UP"!</h5>
@@ -112,7 +124,7 @@
                       </div>
 
                       <div class="carousel-item">
-                        <img src="Images/dreamcatcher.jpg" class="d-block w-100" alt="dreamcatcher"/>
+                        <a href="dreamcatcher.html"><img src="Images/dreamcatcher.jpg" class="d-block w-100" alt="dreamcatcher"/></a>
                         <div class="carousel-caption d-none d-md-block">
                           <div class="d-flex justify-content-center"><div class="square">COMEBACKS</div></div>
                           <h5>DREAMCATCHER regain control in their "MAISON" comeback MV!</h5>
@@ -147,14 +159,14 @@
                   <div class="d-flex gallery-group">
 
                     <div class="image-gallery-main">
-                      <img src="Images/yerin.jpg" alt="yerin" class="image-gallery">
+                      <a href="yerin.html"><img src="Images/yerin.jpg" alt="yerin" class="image-gallery"></a>
 
                       <div class="caption-main">
                         <div><div class="d-inline-flex mb-1 tag-pink">DEBUT</div></div>
                         
                         <div class="d-inline-flex">
                           <div class="caption-background-white">
-                            <div><p class="caption-title" >YERIN exudes her beauty in solo debut "ARIA" MV!</p></div>
+                            <a href="yerin.html"><div><p class="caption-title blue" >YERIN exudes her beauty in solo debut "ARIA" MV!</p></div></a>
                             
                             <div class="caption-author-container">
                               <p class="caption-author">DEREK FONG</p>
@@ -168,14 +180,14 @@
 
 
                     <div class="image-gallery-main">
-                      <img src="Images/sf9.png" alt="sf9" class="image-gallery">
+                      <a href="sf9.html"><img src="Images/sf9.png" alt="sf9" class="image-gallery"></a>
 
                       <div class="caption-main">
                         <div><div class="d-inline-flex mb-1 tag-pink">MUSIC</div></div>
                         
                         <div class="d-inline-flex">
                           <div class="caption-background-white">
-                            <div><p class="caption-title">SF9, BewhY & Jessi reignite Sydney at OLA Music Festival</p></div>
+                            <a href="sf9.html"><div><p class="caption-title blue" >SF9, BewhY & Jessi reignite Sydney at OLA Music Festival</p></div></a>
                             
                             <div class="caption-author-container">
                               <p class="caption-author">LIAM LUANGRATHRAJASOMBAT</p>
@@ -189,14 +201,14 @@
                     </div>
 
                     <div class="image-gallery-main">
-                      <img src="Images/psy.jpg" alt="sf9" class="image-gallery">
+                      <a href="psy.html"><img src="Images/psy.jpg" alt="sf9" class="image-gallery"></a>
 
                       <div class="caption-main">
                         <div><div class="d-inline-flex mb-1 tag-pink">MUSIC</div></div>
                         
                         <div class="d-inline-flex">
                           <div class="caption-background-white">
-                            <div><p class="caption-title">PSY has a faceoff in his "That That (prod. & feat. SUGA of BTS)" comeback MV!</p></div>
+                            <a href="psy.html"><div><p class="caption-title blue">PSY has a faceoff in his "That That (prod. & feat. SUGA of BTS)" comeback MV!</p></div></a>
                             
                             <div class="caption-author-container">
                               <p class="caption-author">DEREK FONG</p>
@@ -218,18 +230,19 @@
 
           <!-- Shortcuts -->
           <div class="articles">
-            <div class="col-sm-8 shortcuts" class="col-xl-8">SHORTCUTS</div>
+            <div class="col-sm-8 shortcuts" class="col-xl-8" id="shortcuts">SHORTCUTS</div>
 
             <!-- first row -->
             <div class="justify-content-around column-main">
 
               <div class="first-article-main-container">
-                <img src="Images/oneus.jpg" alt="oneus" class="article1-image">
+                <a href="oneus.html"><img src="Images/oneus.jpg" alt="oneus" class="article1-image"></a>
 
                 <div class="article3-caption-main-container">
                   <div ><div class="tag-article3-caption d-inline-flex">COMEBACKS</div></div>
                   <div class="article3-white-background">
-                    <div class="article3-title-caption">ONEUS "Bring it on" as tricksters in their comeback MV!</div>
+
+                    <a href="oneus.html" class="blue"><div class="article3-title-caption">ONEUS "Bring it on" as tricksters in their comeback MV!</div></a>
                     <div class="articles3-caption-author-container d-flex">
                       <p class="articles3-caption-author">DEREK FONG</p>
                       <p class="articles3-caption-date">MAY 17, 2022</p>
@@ -239,12 +252,12 @@
               </div>
 
               <div class="first-article-main-container">
-                <img src="Images/alice.jpg" alt="alice" class="article1-image">
+                <a href="alice.html"><img src="Images/alice.jpg" alt="alice" class="article1-image"></a>
 
                 <div class="article3-caption-main-container">
                   <div ><div class="tag-article3-caption d-inline-flex">COMEBACKS</div></div>
                   <div class="article3-white-background">
-                    <div class="article3-title-caption">ALICE (formerly ELRIS) express the "POWER OF LOVE" in their delicate comeback MV!</div>
+                    <a href="alice.html" class="blue"><div class="article3-title-caption">ALICE (formerly ELRIS) express the "POWER OF LOVE" in their delicate comeback MV!</div></a>
                     <div class="articles3-caption-author-container d-flex">
                       <p class="articles3-caption-author">DEREK FONG</p>
                       <p class="articles3-caption-date">APRIL 20, 2022</p>
@@ -260,12 +273,12 @@
             <div class="justify-content-around column-main">
 
               <div class="first-article-main-container">
-                <img src="Images/younite.jpg" alt="oneus" class="article1-image">
+                <a href="younite.html"><img src="Images/younite.jpg" alt="oneus" class="article1-image"></a>
 
                 <div class="article3-caption-main-container">
                   <div ><div class="tag-article3-caption d-inline-flex">COMEBACKS</div></div>
                   <div class="article3-white-background">
-                    <div class="article3-title-caption">YOUNITE request you to choose "1 of 9" in their group debut MV!</div>
+                    <a href="younite.html" class="blue"><div class="article3-title-caption">YOUNITE request you to choose "1 of 9" in their group debut MV!</div></a>
                     <div class="articles3-caption-author-container d-flex">
                       <p class="articles3-caption-author">DEREK FONG</p>
                       <p class="articles3-caption-date">APRIL 20, 2022</p>
@@ -275,12 +288,12 @@
               </div>
 
               <div class="first-article-main-container">
-                <img src="Images/txt.jpg" alt="txt" class="article1-image">
+                <a href="shawn.html"><img src="Images/txt.jpg" alt="txt" class="article1-image"></a>
 
                 <div class="article3-caption-main-container">
                   <div ><div class="tag-article3-caption d-inline-flex">ANNIVERSARIES</div></div>
                   <div class="article3-white-background">
-                    <div class="article3-title-caption">TXT share a beautiful cover of Shawn Mendes’ "In My Blood" for first anniversary</div>
+                    <a href="shawn.html" class="blue"><div class="article3-title-caption">TXT share a beautiful cover of Shawn Mendes’ "In My Blood" for first anniversary</div></a>
                     <div class="articles3-caption-author-container d-flex">
                       <p class="articles3-caption-author">DEREK FONG</p>
                       <p class="articles3-caption-date">APRIL 20, 2022</p>
@@ -296,12 +309,12 @@
             <div class="justify-content-around column-main">
 
               <div class="first-article-main-container">
-                <img src="Images/bling-bling.jpg" alt="bling-bling" class="article1-image">
+                <a href="bling-bling.html"><img src="Images/bling-bling.jpg" alt="bling-bling" class="article1-image"></a>
 
                 <div class="article3-caption-main-container">
                   <div ><div class="tag-article3-caption d-inline-flex">CELEB</div></div>
                   <div class="article3-white-background">
-                    <div class="article3-title-caption">Get to know rookie girl group BLING BLING!</div>
+                    <a href="bling-bling.html" class="blue"><div class="article3-title-caption">Get to know rookie girl group BLING BLING!</div></a>
                     <div class="articles3-caption-author-container d-flex">
                       <p class="articles3-caption-author">TERRY ALS</p>
                       <p class="articles3-caption-date">MAY 10, 2022</p>
@@ -311,12 +324,12 @@
               </div>
 
               <div class="first-article-main-container">
-                <img src="Images/ghost9.jpg" alt="ghost9" class="article1-image">
+                <a href="ghost9.html"><img src="Images/ghost9.jpg" alt="ghost9" class="article1-image"></a>
 
                 <div class="article3-caption-main-container">
                   <div ><div class="tag-article3-caption d-inline-flex">MUSIC</div></div>
                   <div class="article3-white-background">
-                    <div class="article3-title-caption">GHOST9 strike with confidence in their "X-Ray" comeback MV!</div>
+                    <a href="ghost9.html" class="blue"><div class="article3-title-caption">GHOST9 strike with confidence in their "X-Ray" comeback MV!</div></a>
                     <div class="articles3-caption-author-container d-flex">
                       <p class="articles3-caption-author">DEREK FONG</p>
                       <p class="articles3-caption-date">APRIL 20, 2022</p>
@@ -335,18 +348,18 @@
 
             <div class="parent-body">
               <div class="articles">
-                <div class="col-sm-8 shortcuts" class="col-xl-8">FEATURED EVENTS</div>
+                <div class="col-sm-8 shortcuts" class="col-xl-8" id="featured">FEATURED EVENTS</div>
     
                 <!-- first row -->
                 <div class="justify-content-around column-main">
     
                   <div class="first-article-main-container">
-                    <img src="Images/ateez.jpg" alt="ateez" class="article1-image">
+                    <a href="ateez.html"><img src="Images/ateez.jpg" alt="ateez" class="article1-image"></a>
     
                     <div class="article1-caption-main-container">
                       <div ><div class="tag-article1-caption d-inline-flex">EVENTS</div></div>
                       <div class="article1-white-background">
-                        <div class="article1-title-caption">New dates for ATEEZ in Europe are out plus additional stops added!</div>
+                        <a href="ateez.html" class="blue"><div class="article1-title-caption">New dates for ATEEZ in Europe are out plus additional stops added!</div></a>
                         <div class="articles1-caption-author-container d-flex">
                           <p class="articles1-caption-author">TERRY ALS</p>
                           <p class="articles1-caption-date">MAY 15, 2022</p>
@@ -356,12 +369,12 @@
                   </div>
     
                   <div class="first-article-main-container">
-                    <img src="Images/w24.jpg" alt="w24" class="article1-image">
+                    <a href="w24.html"><img src="Images/w24.jpg" alt="w24" class="article1-image"></a>
     
                     <div class="article1-caption-main-container">
                       <div ><div class="tag-article1-caption d-inline-flex">EVENTS</div></div>
                       <div class="article1-white-background">
-                        <div class="article1-title-caption">The band W24 is going to the UK this April!</div>
+                        <a href="w24.html" class="blue"><div class="article1-title-caption">The band W24 is going to the UK this April!</div></a>
                         <div class="articles1-caption-author-container d-flex">
                           <p class="articles1-caption-author">TERRY ALS</p>
                           <p class="articles1-caption-date">MARCH 26, 2022</p>
@@ -377,12 +390,12 @@
                 <div class="justify-content-around column-main">
     
                   <div class="first-article-main-container">
-                    <img src="Images/mcnd.jpg" alt="mcnd" class="article1-image">
+                    <a href="mcnd.html"><img src="Images/mcnd.jpg" alt="mcnd" class="article1-image"></a>
     
                     <div class="article1-caption-main-container">
                       <div ><div class="tag-article1-caption d-inline-flex">EVENTS</div></div>
                       <div class="article1-white-background">
-                        <div class="article1-title-caption">MCND to mesmerize Europe this April!</div>
+                        <a href="mcnd.html" class="blue"><div class="article1-title-caption">MCND to mesmerize Europe this April!</div></a>
                         <div class="articles1-caption-author-container d-flex">
                           <p class="articles1-caption-author">TERRY ALS</p>
                           <p class="articles1-caption-date">FEBRUARY 18, 2022</p>
@@ -392,12 +405,12 @@
                   </div>
     
                   <div class="first-article-main-container">
-                    <img src="Images/yugyeom.jpg" alt="yugyeom" class="article1-image">
+                    <a href="yugyeom.html"><img src="Images/yugyeom.jpg" alt="yugyeom" class="article1-image"></a>
     
                     <div class="article1-caption-main-container">
                       <div ><div class="tag-article1-caption d-inline-flex">EVENTS</div></div>
                       <div class="article1-white-background">
-                        <div class="article1-title-caption">The wait is over: YUGYEOM is going to tour Germany this May!</div>
+                        <a href="yugyeom.html" class="blue"><div class="article1-title-caption">The wait is over: YUGYEOM is going to tour Germany this May!</div></a>
                         <div class="articles1-caption-author-container d-flex">
                           <p class="articles1-caption-author">TERRY ALS</p>
                           <p class="articles1-caption-date">FEBRUARY 13, 2022</p>
@@ -413,12 +426,12 @@
                 <div class="justify-content-around column-main">
     
                   <div class="first-article-main-container">
-                    <img src="Images/dongkiz.jpg" alt="dongkiz" class="article1-image">
+                    <a href="dongkiz.html"><img src="Images/dongkiz.jpg" alt="dongkiz" class="article1-image"></a>
     
                     <div class="article1-caption-main-container">
                       <div ><div class="tag-article1-caption d-inline-flex">EVENTS</div></div>
                       <div class="article1-white-background">
-                        <div class="article1-title-caption">DONGKIZ are coming to Europe this year!</div>
+                        <a href="dongkiz.html" class="blue"><div class="article1-title-caption">DONGKIZ are coming to Europe this year!</div></a>
                         <div class="articles1-caption-author-container d-flex">
                           <p class="articles1-caption-author">TERRY ALS</p>
                           <p class="articles1-caption-date">JANUARY 1, 2022</p>
@@ -428,12 +441,12 @@
                   </div>
     
                   <div class="first-article-main-container">
-                    <img src="Images/eric-nam.jpg" alt="eric-nam" class="article1-image">
+                    <a href="eric-nam.html"><img src="Images/eric-nam.jpg" alt="eric-nam" class="article1-image"></a>
     
                     <div class="article1-caption-main-container">
                       <div ><div class="tag-article1-caption d-inline-flex">EVENTS</div></div>
                       <div class="article1-white-background">
-                        <div class="article1-title-caption">Eric Nam coming to you with "There & Back Again World Tour"</div>
+                        <a href="eric-nam.html" class="blue"><div class="article1-title-caption">Eric Nam coming to you with "There & Back Again World Tour"</div></a>
                         <div class="articles1-caption-author-container d-flex">
                           <p class="articles1-caption-author">TERRY ALS</p>
                           <p class="articles1-caption-date">NOVEMBER 3, 2021</p>
@@ -447,12 +460,12 @@
                 <div class="justify-content-around column-main">
     
                   <div class="first-article-main-container-bottom">
-                    <img src="Images/p1harmony.jpg" alt="p1harmony" class="article1-image">
+                    <a href="p1harmony.html"><img src="Images/p1harmony.jpg" alt="p1harmony" class="article1-image"></a>
     
                     <div class="article1-caption-main-container">
                       <div ><div class="tag-article1-caption d-inline-flex articles1-caption-bottom">EVENTS</div></div>
                       <div class="article1-white-background">
-                        <div class="article1-title-caption-bottom">P1Harmony Prepares to Meet U.S. P1ECE in March</div>
+                        <a href="p1harmony.html" class="blue"><div class="article1-title-caption-bottom">P1Harmony Prepares to Meet U.S. P1ECE in March</div></a>
                         <div class="articles1-caption-author-container d-flex">
                           <p class="articles1-caption-author-bottom">AMERICA USA,CANADA,S.AMERICA</p>
                           <p class="articles1-caption-date-bottom">FEBRUARY 10, 2022</p>
@@ -465,12 +478,12 @@
                 <div class="justify-content-around column-main">
     
                   <div class="first-article-main-container-bottom">
-                    <img src="Images/groovl1n.jpg" alt="groovl1n" class="article1-image">
+                    <a href="groovl1n.html"><img src="Images/groovl1n.jpg" alt="groovl1n" class="article1-image"></a>
     
                     <div class="article1-caption-main-container">
                       <div ><div class="tag-article1-caption d-inline-flex articles1-caption-bottom">EVENTS</div></div>
                       <div class="article1-white-background">
-                        <div class="article1-title-caption-bottom">GROOVL1N is Ready to Groove on U.S. Tour</div>
+                        <a href="groovl1n.html" class="blue"><div class="article1-title-caption-bottom">GROOVL1N is Ready to Groove on U.S. Tour</div></a>
                         <div class="articles1-caption-author-container d-flex">
                           <p class="articles1-caption-author-bottom">AMERICA USA,CANADA,S.AMERICA</p>
                           <p class="articles1-caption-date-bottom">FEBRUARY 9, 2022</p>
@@ -490,19 +503,19 @@
 
           <!-- aside -->
           <div class="aside" style="flex: 1;">
-            <div class="col-xl-8 trending">TRENDING</div>
+            <div class="col-xl-8 trending" id="trending-now">TRENDING NOW</div>
 
             <div class="aside-main-container">
 
               <div>
                 <div class="aside-articles-main-container">
-                  <img src="Images/lightsum.jpg" alt="lightsum-schedule" class="aside-image">
+                  <a href="lightsum.html"><img src="Images/lightsum.jpg" alt="lightsum-schedule" class="aside-image"></a>
 
                   <div class="aside-caption-main-container">
                     <div><p class="d-inline-flex aside-caption-tag">TEASERS</p></div>
 
                     <div class="aside-caption-white">
-                        <div class="aside-caption-title">LIGHTSUM drop their 1st mini album scheduler for "Into The Light"!</div>
+                      <a href="lightsum.html" class="blue"><div class="aside-caption-title">LIGHTSUM drop their 1st mini album scheduler for "Into The Light"!</div></a>
 
                         <div class="articles2-caption-author-container d-flex">
                           <p class="articles2-caption-author">DEREK FONG</p>
@@ -515,13 +528,13 @@
 
               <div>
                 <div class="aside-articles-main-container">
-                  <img src="Images/ikon.jpg" alt="ikon" class="aside-image">
+                  <a href="ikon.html"><img src="Images/ikon.jpg" alt="ikon" class="aside-image"></a>
 
                   <div class="aside-caption-main-container">
                     <div><p class="d-inline-flex aside-caption-tag">MUSIC</p></div>
 
                     <div class="aside-caption-white">
-                        <div class="aside-caption-title">iKON glitter and flash in their long awaited "But You" comeback MV!</div>
+                      <a href="ikon.html" class="blue"><div class="aside-caption-title">iKON glitter and flash in their long awaited "But You" comeback MV!</div></a>
 
                         <div class="articles2-caption-author-container d-flex">
                           <p class="articles2-caption-author">DEREK FONG</p>
@@ -534,13 +547,13 @@
 
               <div>
                 <div class="aside-articles-main-container">
-                  <img src="Images/seventeen.jpg" alt="seventeen" class="aside-image">
+                  <a href="seventeen.html"><img src="Images/seventeen.jpg" alt="seventeen" class="aside-image"></a>
 
                   <div class="aside-caption-main-container">
                     <div><p class="d-inline-flex aside-caption-tag">MUSIC</p></div>
 
                     <div class="aside-caption-white">
-                        <div class="aside-caption-title">SEVENTEEN bask under sunlight in their "Darl+ing" MV!</div>
+                      <a href="seventeen.html" class="blue"><div class="aside-caption-title">SEVENTEEN bask under sunlight in their "Darl+ing" MV!</div></a>
 
                         <div class="articles2-caption-author-container d-flex">
                           <p class="articles2-caption-author">DEREK FONG</p>
@@ -554,16 +567,16 @@
 
               <!-- What to watch -->
 
-              <div class="col-xl-8 what-to-watch">WHAT TO WATCH</div>
+              <div class="col-xl-8 what-to-watch" id="what-to">WHAT TO WATCH</div>
 
               <div class="aside-articles-main-container">
-                  <img src="Images/cleaning-up.jpg" alt="cleaning-up" class="aside-image">
+                  <a href="cleaning.html"><img src="Images/cleaning-up.jpg" alt="cleaning-up" class="aside-image"></a>
 
                   <div class="aside-caption-main-container">
                     <div><p class="d-inline-flex aside-caption-tag">DRAMA</p></div>
 
                     <div class="aside-caption-white">
-                        <div class="aside-caption-title what">Watch: Jun So Min And Yum Jung Ah Learn To Turn Their Invisibility Into A Weapon In Exciting Teaser For “Cleaning Up”</div>
+                      <a href="cleaning.html" class="blue"><div class="aside-caption-title what">Watch: Jun So Min And Yum Jung Ah Learn To Turn Their Invisibility Into A Weapon In Exciting Teaser For “Cleaning Up”</div></a>
 
                         <div class="articles2-caption-author-container d-flex">
                           <p class="articles2-caption-author">E. CHA</p>
@@ -574,13 +587,13 @@
               </div>
 
               <div class="aside-articles-main-container">
-                <img src="Images/eve.jpg" alt="eve-drama" class="aside-image">
+                <a href="eve.html"><img src="Images/eve.jpg" alt="eve-drama" class="aside-image"></a>
 
                 <div class="aside-caption-main-container">
                   <div><p class="d-inline-flex aside-caption-tag">DRAMA</p></div>
 
                   <div class="aside-caption-white">
-                      <div class="aside-caption-title what">Watch: Seo Ye Ji Risks Everything For Revenge While Lee Sang Yeob And More Risk Everything For Love In “Eve” Teaser</div>
+                    <a href="eve.html" class="blue"><div class="aside-caption-title what">Watch: Seo Ye Ji Risks Everything For Revenge While Lee Sang Yeob And More Risk Everything For Love In “Eve” Teaser</div></a>
 
                       <div class="articles2-caption-author-container d-flex">
                         <p class="articles2-caption-author">E. CHA</p>
@@ -591,17 +604,17 @@
             </div>
 
             <div class="aside-articles-main-container">
-              <img src="Images/billlie.jpg" alt="billlie" class="aside-image">
+              <a href="billlie.html"><img src="Images/billlie.jpg" alt="billlie" class="aside-image"></a>
 
               <div class="aside-caption-main-container">
                 <div><p class="d-inline-flex aside-caption-tag">COVER</p></div>
 
                 <div class="aside-caption-white">
-                    <div class="aside-caption-title what">Watch: Billlie Covers f(x)’s Debut Track “LA chA TA” In Fun Relay Dance Challenge</div>
+                  <a href="billlie.html" class="blue"><div class="aside-caption-title what">Watch: Billlie Covers f(x)’s Debut Track “LA chA TA” In Fun Relay Dance Challenge</div></a>
 
                     <div class="articles2-caption-author-container d-flex">
                       <p class="articles2-caption-author">E. CHA</p>
-                      <p class="articles2-caption-date">MAY @@, 2022</p>
+                      <p class="articles2-caption-date">MAY 22, 2022</p>
                     </div>
                 </div>
             </div>
@@ -634,40 +647,40 @@
             <!-- /Main Content/ -->
 
 
-        <footer class="container-fluid">
+            <footer class="container-fluid">
         
-        <div class="footer-follow-us-main">
-          <p class="follow-us">FOLLOW US</p>
-
-          <div class="footer-table">
-            <div class="footer-facebook-column">
-              <p  class="sns"><i class="bi bi-facebook"></i>Facebook</p>
-              <p  class="sns"><i class="bi bi-twitter"></i>Twitter</p>
-            </div>
-
-            <div style="" class="footer-insta-column">
-              <p class="sns"><i class="bi bi-instagram"></i>Instagram</p>
-              <p class="sns"><i class="bi bi-youtube"></i>Youtube</p>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="footer-about-us-main">
-          <p class="about-us">About Us</p>
-          <div>
-            <p class="terms"><i class="bi bi-book"></i>Terms of Use</p>
-            <p class="terms"><i class="bi bi-globe2"></i>Privacy Policy</p>
-          </div>
-        </div>
-
-        <div class="footer-logo-main">
-          <div class="d-flex justify-content-end">
-            <img src="Images/fav.png" alt="Babloo Entertainment logo"  class="footer-logo">
-          </div>       
-        </div>
-        
-        </footer>  
+              <div class="footer-follow-us-main">
+                <p class="follow-us">FOLLOW US</p>
+      
+                <div class="footer-table">
+                  <div class="footer-facebook-column">
+                    <a href="https://www.facebook.com/allkpop/"><p  class="sns"><i class="bi bi-facebook"></i>Facebook</p></a>
+                    <a href="https://twitter.com/allkpop"><p  class="sns"><i class="bi bi-twitter"></i>Twitter</p></a>
+                  </div>
+      
+                  <div class="footer-insta-column">
+                    <a href="https://www.instagram.com/allkpop/"><p class="sns"><i class="bi bi-instagram"></i>Instagram</p></a>
+                    <a href="https://www.youtube.com/user/allkpop"><p class="sns"><i class="bi bi-youtube"></i>Youtube</p></a>
+                  </div>
+      
+                </div>
+              </div>
+      
+              <div class="footer-about-us-main">
+                <p class="about-us">About Us</p>
+                <div>
+                  <a href="https://www.allkpop.com/tos"><p class="terms"><i class="bi bi-book"></i>Terms of Use</p></a>
+                  <a href="https://www.kpoppost.com/privacy-policy/"><p class="terms"><i class="bi bi-globe2"></i>Privacy Policy</p></a>
+                </div>
+              </div>
+      
+              <div class="footer-logo-main">
+                <div class="d-flex justify-content-end">
+                  <img src="Images/fav.png" alt="Babloo Entertainment logo"  class="footer-logo">
+                </div>       
+              </div>
+              
+              </footer>  
             
         </div>
    
