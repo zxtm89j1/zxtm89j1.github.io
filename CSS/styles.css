@@ -47,8 +47,6 @@ body {
     background-color: white;
 }
 
-
-
 .main {
     padding-left: 0;
     padding-right: 0;
@@ -63,9 +61,7 @@ body {
 
 .articles {
     flex: 2; 
-    /* background-color: lightcoral; */
     background-color: white;
-    /* padding-right: 2vh; */
 }
 
 .shortcuts {
@@ -255,6 +251,10 @@ body {
     font-weight: bold;
 }
 
+
+
+
+
 /* k-articles */
 
 .k-articles-main-container {
@@ -365,15 +365,6 @@ iframe {
     padding: 5px;
 }
 
-footer a {
-    text-decoration: none;
-    color: black;
-}
-
-footer a:hover {
-    color: #FE498F;
-}
-
 .k-articles-side {
     flex: 1; background-color: white; padding: 5px;
 }
@@ -407,15 +398,13 @@ footer a:hover {
 .twitter-tweet {
     width: 100%
 }
-
-
-
-
-
-
-
-
 /* /k-articles/ */
+
+
+
+
+
+/* Groups Page */
 
 
 .profile-articles {
@@ -470,12 +459,12 @@ footer a:hover {
     
 }
 
+/* /Groups Page/ */
 
 
 
 
-
-
+/* Footer */
 
 i {
     margin-right: 1vh;
@@ -490,12 +479,6 @@ footer {
     display: flex; background-color: #FFA6C8; padding: 3vh;
     padding-left: 7vh; padding-right: 7vh;
 }
-
-
-
-
-
-
 
 .footer-table {
     display: flex;
@@ -537,14 +520,26 @@ footer {
     flex: 1;
 }
 
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: #FE498F;
+}
+
+/* /Footer/ */
+
+
+
+
+/* Media Queries */
+
 @media screen and (max-width: 1404px) {
     .article1-title-caption {
         font-size: medium;
     }
-
-    /* .articles2-caption-author, .articles2-caption-date {
-        font-size: small;
-    } */
 
     .shortcuts, .trending {
         font-size: 2vh;
@@ -561,10 +556,6 @@ footer {
     .articles3-caption-author, .articles3-caption-date, .tag-article3-caption, .tag-article1-caption {
         font-size: small;
     }
-
-    /* .article1-title-caption-bottom, .articles1-caption-author-bottom, .articles1-caption-date-bottom {
-        font-size: 1vh;
-    } */
 }
 
 @media screen and (max-width: 980px) {
@@ -585,8 +576,6 @@ footer {
     .caption-title, .caption-author, .caption-date {
         font-size: 2vh;
     }
-
-    
 
     .column-main {
         display: flex;
@@ -624,9 +613,8 @@ footer {
     .articles2-caption-author, .articles2-caption-date {
         font-size: 2vh;
     }
-
-    
 }
+
 
 @media screen and (max-width: 1200px) {
     .parent-body {
@@ -635,12 +623,7 @@ footer {
 
     .aside {
         margin: 0;
-    }
-
-    /* .aside-caption-tag, .aside-caption-title, .articles2-caption-author, .articles2-caption-date {
-        font-size: 1vh;
-    } */
-    
+    }    
 }
 
 @media screen and (max-width: 488px) {
@@ -757,319 +740,5 @@ footer {
     }
 }
 
+/* /Media Queries/ */
 
-
-
-
-
-
-
-
-
-
-
-
-/* @media screen and (max-width: 900px) {
-    .gallery-group {
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    .image-gallery-main {
-        width: 100%;
-    }
-
-    .tag-pink {
-        font-size: larger;
-    }
-
-    .caption-title {
-        font-size: larger;
-    }
-
-    .caption-author {
-        font-size: larger;
-    }
-
-    .caption-date {
-        font-size: larger;
-    }
-
-    .column-main {
-        flex-direction: column;
-    }
-
-    .first-article-main-container {
-        width: 100%;
-        margin: 0.1vh;
-    }
-
-    .parent-body {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 472px) {
-    .tag-pink {
-        font-size: small;
-    }
-
-    .caption-title {
-        font-size: small;
-    }
-
-    .caption-author {
-        font-size: small;
-    }
-
-    .caption-date {
-        font-size: small;
-    }
-}
-
-@media screen and (max-width: 456px) {
-    .tag-article3-caption {
-        font-size: small;
-    }
-
-    .article3-title-caption {
-        font-size: small;
-    }
-
-    .articles3-caption-author {
-        font-size: small;
-    }
-
-    .articles3-caption-date {
-        font-size: small;
-    }
-
-    .tag-article1-caption {
-        font-size: small;
-    }
-
-    .article1-title-caption {
-        font-size: small;
-    }
-
-    .articles1-caption-author {
-        font-size: small!important;
-    }
-
-    .articles1-caption-date {
-        font-size: small;
-    }
-
-    .article1-title-caption {
-        font-size: small!important;
-    }
-
-    .article1-title-caption-bottom {
-        font-size: small!important;
-    }
-
-    .articles1-caption-author-bottom {
-        font-size: small!important;
-    }
-
-    .articles1-caption-date-bottom {
-        font-size: small!important;
-    }
-
-    .aside-caption-tag {
-        font-size: small!important;
-    }
-
-    .aside-caption-title {
-        font-size: small!important;
-    }
-
-    .articles2-caption-author {
-        font-size: small!important;
-    }
-
-    .articles2-caption-date {
-        font-size: small!important;
-    }
-
-    .aside-caption-tag {
-        margin-bottom: 1px!important;
-    }
-
-}
-
-@media screen and (max-width: 900px) {
-    .aside {
-        margin: 0
-    }
-}
-
-@media screen (min-width: 797px) {
-    .article1-caption-bottom {
-        font-size: 10vh;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .article1-title-caption-bottom {
-        font-size: 1.9vh;
-    }
-
-    .articles1-caption-author-bottom {
-        font-size: 1.6vh;
-    }
-
-    .articles1-caption-date-bottom {
-        font-size: 1.6vh;
-    }
-
-    .aside-caption-tag {
-        font-size: 1.6vh;
-    }
-
-    .aside-caption-title {
-        font-size: 1.9vh;
-    }
-
-    .articles2-caption-author {
-        font-size: 1.6vh;
-    }
-
-    .articles2-caption-date {
-        font-size: 1.6vh;
-    }
-
-    .tag-article1-title-caption {
-        font-size: 1.6vh;
-    }
-
-    .article1-title-caption {
-        font-size: 1.9vh;
-    }
-
-   .articles1-caption-author {
-       font-size: 1.6vh;
-   }
-}
-
-@media screen and (max-width: 2170px) {
-    .what-to-watch {
-        margin-top: 3.5vh;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .what-to-watch {
-        margin-top: 0vh;
-        margin-bottom: 0.5vh;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    footer {
-        flex-direction: column;
-    }
-
-    .footer-logo-main {
-        margin: 0;
-    }
-}
-
-@media screen and (max-width: 1473px) {
-    .k-articles-main-container {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 887px) {
-    .k-articles-sns {
-        flex-direction: column;
-    }
-
-    .k-articles-facebook, .k-articles-twitter {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 595px) {
-    .k-articles-author1, .k-articles-sns span {
-        font-size: 10px;
-    }
-
-    .k-articles-author-sil {
-        width: 15px;
-    } 
-
-}
-
-@media screen and (max-width: 680px) {
-    iframe {
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-
-@media screen and (max-width: 367px) {
-    .k-articles-direct-container {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .k-articles-p {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .articles2-caption-author, .articles2-caption-date {
-        font-size: small;
-    }
-
-    .aside-caption-tag {
-        margin: 0;
-        padding: 3px;
-    }
-
-
-    .article1-title-caption-bottom {
-        font-size: 1.6vh;
-    }
-
-    .articles1-caption-author-bottom, .articles1-caption-date-bottom {
-        font-size: 1.4vh;
-    }
-
-    .tag-article1-caption {
-        font-size: 1.4vh;
-    }
-
-    .article1-title-caption {
-        font-size: 1vh;
-    }
-
-    .shortcuts, .trending {
-        font-size: 1.6vh;
-    }
-
-    .article3-title-caption {
-        font-size: 1.6vh;
-    }
-
-    .caption-title {
-        font-size: medium;
-    }
-
-    .article3-title-caption {
-        margin: 1px;
-    }
-
-    .articles3-caption-author, .articles3-caption-date {
-        font-size: medium;
-    }
-
-    .articles1-caption-author, .articles1-caption-date {
-        font-size: small;
-    }
-
-} */
