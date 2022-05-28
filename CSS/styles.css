@@ -3,7 +3,7 @@ body {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;   
 }
 
 .image-gallery-main {
@@ -356,6 +356,7 @@ iframe {
 
 .side-ads {
     margin-top: 10px;
+    width: 100%;
 }
 
 .k-articles-ads-tag {
@@ -417,8 +418,48 @@ footer a:hover {
 /* /k-articles/ */
 
 
+.profile-articles {
+    text-align: justify;
+}
 
+.profile-articles-center {
+    text-align: center;
+}
 
+.link-profile {
+    color: #FE498F;
+    font-weight: bold;
+}
+
+.link-profile:hover {
+    color: #FE498F;
+}
+
+.tag-profile {
+    color: #FFA6C8;
+    font-weight: bold;
+}
+
+.accordion button {
+    color: #FE498F;
+}
+
+.profile-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.main-profile-image {
+    width: 50%;
+}
+
+.individual-profile {
+    width: 100%;
+    align-items: center;
+    
+}
 
 
 
