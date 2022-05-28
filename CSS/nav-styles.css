@@ -41,6 +41,24 @@
     color: #FE498F!important;
 }
 
+.btn-outline-success {
+
+--bs-btn-color: #FE498F!important;
+--bs-btn-border-color: #FE498F!important;
+--bs-btn-hover-color: #fff;
+--bs-btn-hover-bg: #FE498F!important;
+--bs-btn-hover-border-color: #FE498F!important;
+--bs-btn-focus-shadow-rgb: 25,135,84;
+--bs-btn-active-color: #fff;
+--bs-btn-active-bg: #FE498F!important;
+--bs-btn-active-border-color: #198754;
+--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+--bs-btn-disabled-color: #FE498F!important;
+--bs-btn-disabled-bg: transparent;
+--bs-gradient: none;
+
+}
+
 
 
 i {

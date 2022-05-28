@@ -441,7 +441,16 @@ footer a:hover {
 }
 
 .accordion button {
-    color: #FE498F;
+    color: #FE498F!important;
+}
+
+.accordion-button:focus {
+    border-color: #FE498F;
+}
+
+.accordion {
+    --bs-accordion-active-color: #FE498F!important;
+    --bs-accordion-btn-focus-border-color: #FE498F!important;
 }
 
 .profile-image {
