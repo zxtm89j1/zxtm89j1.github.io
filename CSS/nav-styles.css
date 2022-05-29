@@ -117,9 +117,9 @@ form > i {
    flex-direction: 1;
 }
 
-.dropdown:hover > .dropdown-menu {
+/* .dropdown:hover > .dropdown-menu {
     display: block;
-}
+} */
 
 
 /* Media query */
