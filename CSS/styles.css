@@ -570,11 +570,11 @@ footer a:hover {
     }
 
     .tag-pink {
-        font-size: 1vh;
+        font-size: 1.5vh;
     }
 
     .caption-title, .caption-author, .caption-date {
-        font-size: 2vh;
+        font-size: 1.5vh;
     }
 
     .column-main {
